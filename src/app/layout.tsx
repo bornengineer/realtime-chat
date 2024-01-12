@@ -17,13 +17,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={inter.className} style={{ background: "#7170701f" }}>
         <Container
           maxWidth="md"
           sx={{
             minHeight: "90vh",
             display: "flex",
-            border: "1px solid red",
             alignItems: "center",
             justifyContent: "center",
           }}
